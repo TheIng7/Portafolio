@@ -1,0 +1,169 @@
+<section class="bio-section">
+  <h2 class="section-title">THEING STUDIO</h2>
+
+  <div class="bio-grid">
+    <!-- Perfil artístico -->
+    <article class="bio-card">
+      <header class="card-header">
+        <div class="card-icon"></div>
+        <div>
+          <h3 class="company">THEING</h3>
+          <h4 class="role">Productor musical y artista digital</h4>
+          <time class="years">Contacto</time>
+        </div>
+      </header>
+      <p class="summary">
+        Fundador de THEING Studio. Produzco beats con identidad propia, fusionando glitch, ambient y trap experimental. Mi enfoque combina diseño sonoro, visuales sincronizados y narrativa musical.
+      </p>
+      <ul class="highlights">
+        <li>theingbeats@gmail.com</li>
+        <li>+57 3192048702</li>
+        <li>www.theingstudio.com</li>
+      </ul>
+    </article>
+
+    <!-- Producción y herramientas -->
+    <article class="bio-card">
+      <header class="card-header">
+        <div class="card-icon"></div>
+        <div>
+          <h3 class="company">Produccion</h3>
+          <h4 class="role">Herramientas y tecnicas</h4>
+          <time class="years">Workflow creativo</time>
+        </div>
+      </header>
+      <p class="summary">
+        Trabajo con Ableton Live y FL Studio para crear atmosferas sonoras unicas. Integro sintetizadores, texturas digitales y efectos visuales en tiempo real.
+      </p>
+      <ul class="highlights">
+        <li>Beatmaking y mezcla profesional</li>
+        <li>Diseno sonoro con sintetizadores modulares</li>
+        <li>Masterizacion para plataformas digitales</li>
+        <li>Visuales generativos con TouchDesigner</li>
+        <li>Integracion audiovisual en presentaciones en vivo</li>
+      </ul>
+    </article>
+
+    <!-- Perfil creativo -->
+    <article class="bio-card">
+      <header class="card-header">
+        <div class="card-icon"></div>
+        <div>
+          <h3 class="company">Perfil creativo</h3>
+          <h4 class="role">Vision y colaboracion</h4>
+          <time class="years">Estilo y enfoque</time>
+        </div>
+      </header>
+      <p class="summary">
+        Mi estilo se basa en la exploracion sonora y la construccion de paisajes auditivos. Colaboro con artistas emergentes y desarrollo experiencias inmersivas que conectan con lo digital y lo emocional.
+      </p>
+      <ul class="highlights">
+        <li>Direccion creativa en proyectos musicales</li>
+        <li>Curaduria sonora para eventos y festivales</li>
+        <li>Mentoria en produccion musical</li>
+        <li>Desarrollo de identidad sonora</li>
+        <li>Innovacion en formatos y narrativa auditiva</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<style>
+  .bio-section {
+    padding: 5rem 2rem;
+    background: linear-gradient(180deg, #050505, #121212);
+    text-align: center;
+    color: #eaeaea;
+  }
+
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    color: #ff9900;
+    text-shadow: 0 0 12px #ff9900, 0 0 30px #ff3300;
+  }
+
+  .bio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+  }
+
+  .bio-card {
+    background: #1a1a1a;
+    border: 2px solid #ff3300;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 0 20px #ff3300, 0 0 40px #ff9900;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+  }
+
+  .bio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px #ff9900, 0 0 60px #ff3300;
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-icon {
+    font-size: 2rem;
+    color: #ff9900;
+    text-shadow: 0 0 10px #ff3300;
+  }
+
+  .company {
+    font-size: 1.6rem;
+    color: #ff9900;
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .role {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ff3300;
+    margin: 0.2rem 0;
+  }
+
+  .years {
+    font-size: 0.95rem;
+    color: #999;
+    opacity: 0.8;
+  }
+
+  .summary {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #ccc;
+    font-style: normal;
+  }
+
+  .highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .highlights li {
+    font-size: 0.95rem;
+    padding-left: 1.2rem;
+    position: relative;
+    margin-bottom: 0.6rem;
+    color: #ff9900;
+  }
+
+  .highlights li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    color: #ff3300;
+  }
+</style>

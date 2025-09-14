@@ -1,0 +1,92 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import OtraSection from "../sections/OtraSection.astro";
+import Content from "../components/Content.astro";
+---
+
+<Header />
+
+<main class="landing">
+  
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1 class="hero-title"> DEIMAR THEING Studio</h1>
+      <p class="hero-subtitle">Produciendo ideas que suenan CyberPhonk & Code</p>
+      <a href="#proyectos" class="cta-button">ESCUCHA MIS BEATS</a>
+    </div>
+  </section>
+
+  
+  <Content />
+
+  
+  <section id="proyectos">
+    <OtraSection />
+  </section>
+</main>
+
+<Footer />
+
+<style>
+  .landing {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 6rem;
+    background: radial-gradient(circle at center, #0000f5, #0000ff);
+  }
+
+  .hero {
+    position: relative;
+    height: 90vh;
+    background: url("/assets/background.svg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px var(--neon-purple);
+  }
+
+  .hero-title {
+    font-size: 4rem;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--neon-pink);
+    text-shadow: 0 0 10px var(--neon-blue), 0 0 25px var(--neon-purple);
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--neon-blue);
+    margin-bottom: 2rem;
+    text-shadow: 0 0 6px var(--neon-blue);
+  }
+
+  .cta-button {
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: var(--neon-purple);
+    color: rgb(86, 96, 174);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--neon-purple), 0 0 20px var(--neon-blue);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+  }
+
+  .cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--accent), 0 0 30px var(--neon-pink);
+  }
+</style>

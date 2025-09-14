@@ -1,0 +1,241 @@
+{
+  "basics": {
+    "name": "THEING",
+    "label": "Productor Musical · Artista Digital",
+    "image": "https://example.com/theing-avatar.png",
+    "email": "theingbeats@gmail.com",
+    "phone": "+57 3192048702",
+    "url": "https://theingstudio.com",
+    "summary": "Productor musical colombiano especializado en CyberPhonk, trap experimental y diseño sonoro digital. Fusiono tecnología, arte y ritmo para crear experiencias auditivas únicas.",
+    "location": {
+      "address": "Cra 27 #15-45",
+      "postalCode": "520001",
+      "city": "San Juan de Pasto",
+      "countryCode": "CO",
+      "region": "Nariño"
+    },
+    "profiles": [
+      {
+        "network": "Instagram",
+        "username": "theingbeats",
+        "url": "https://instagram.com/theingbeats"
+      },
+      
+      {
+        "network": "YouTube",
+        "username": "THEING Studio",
+        "url": "https://youtube.com/@theingstudio"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "THEING Studio",
+      "position": "Fundador - Productor Musical",
+      "url": "https://theingstudio.com",
+      "startDate": "2022-01-01",
+      "endDate": null,
+      "summary": "Produccion de beats, sonoro y mezcla profesional para artistas emergentes y proyectos audiovisuales.",
+      "highlights": [
+        "Mas de 50 beats publicados en plataformas digitales",
+
+        "Colaboraciones con artistas urbanos de Colombia y Mexico",
+
+        "Creacion de identidad sonora"
+      ]
+    },
+    {
+      "name": "Festival Sonido Sur",
+      "position": "Director Creativo",
+      "url": "https://sonidosur.com",
+      "startDate": "2023-06-01",
+      "endDate": null,
+      "summary": "Curaduria musical y produccion técnica para festival de musica electronica y urbana en Pasto.",
+      "highlights": [
+        "Line-up con más de 20 artistas nacionales",
+
+        "Diseño de visuales sincronizados con audio",
+
+        "Gestion de escenario y experiencia inmersiva"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Escuela de Beats",
+      "position": "Mentor",
+      "url": "https://escueladebeats.org",
+      "startDate": "2021-03-01",
+      "endDate": "2022-12-01",
+      "summary": "Formacion gratuita en produccion musical para jovenes de comunidades vulnerables.",
+      "highlights": [
+        "Talleres de FL Studio, mezcla y masterizacion",
+
+        "Mentoría personalizada a mas de 30 estudiantes"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Academia de Musica Electr0nica de Bogota",
+      "url": "https://ameb.edu.co",
+      "area": "Producción Musical",
+      "studyType": "Diplomado",
+      "startDate": "2019-02-01",
+      "endDate": "2019-08-01",
+      "score": "A",
+      "courses": [
+        "Diseoo Sonoro",
+        "Mezcla y Masterizacion",
+        "Live Performance"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Mejor Beat Experimental",
+      "date": "2023-10-01",
+      "awarder": "Beatmakers Colombia",
+      "summary": "Reconocimiento por la produccion de CyberPhonk Rituals, una pieza que fusiona glitch, trap y ambient."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificado en Produccion Avanzada con Ableton Live",
+      "date": "2022-07-15",
+      "issuer": "Domestika",
+      "url": "https://domestika.org/certificado-ableton"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Como disenar tu identidad sonora",
+      "publisher": "BeatMag",
+      "releaseDate": "2023-05-01",
+      "url": "https://beatmag.com/identidad-sonora",
+      "summary": "Articulo sobre branding musical y diseño sonoro para artistas digitales."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Ableton Live",
+      "level": "Avanzado",
+      "keywords": [
+        "Producción",
+        "Mezcla",
+        "Live Performance"
+      ]
+    },
+    {
+      "name": "FL Studio",
+      "level": "Avanzado",
+      "keywords": [
+        "Beatmaking",
+        "Trap",
+        "CyberPhonk"
+      ]
+    },
+    {
+      "name": "Diseño Sonoro",
+      "level": "Avanzado",
+      "keywords": [
+        "Synths",
+        "Texturas",
+        "Ambientes"
+      ]
+    },
+    {
+      "name": "Masterización",
+      "level": "Intermedio",
+      "keywords": [
+        "EQ",
+        "Compresión",
+        "Loudness"
+      ]
+    },
+    {
+      "name": "Visuales Sincronizados",
+      "level": "Intermedio",
+      "keywords": [
+        "Resolume",
+        "TouchDesigner",
+        "VJ"
+      ]
+    },
+    {
+      "name": "Branding Musical",
+      "level": "Avanzado",
+      "keywords": [
+        "Identidad Sonora",
+        "Estética",
+        "Narrativa"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "English",
+      "fluency": "Avanzado"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Música Experimental",
+      "keywords": [
+        "CyberPhonk",
+        "Glitch",
+        "Ambient"
+      ]
+    },
+    {
+      "name": "Arte Digital",
+      "keywords": [
+        "Visuales",
+        "VJ",
+        "Diseño interactivo"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "DJ Kromo",
+      "reference": "Colaborador en múltiples tracks y presentaciones en vivo. Puede dar referencias sobre mi estilo y ética profesional."
+    }
+  ],
+  "projects": [
+    {
+      "name": "CyberPhonk Rituals",
+      "isActive": true,
+      "description": "EP de beats experimentales con estética glitch y ambient",
+      "highlights": [
+        "Disponible en SoundCloud y Bandcamp",
+        "Visuales sincronizados en YouTube"
+      ],
+      "url": "https://soundcloud.com/theing/cyberphonk-rituals"
+    },
+    {
+      "name": "Beatpack Vol.1",
+      "isActive": true,
+      "description": "Colección de instrumentales para artistas urbanos",
+      "highlights": [
+        "Más de 100 descargas",
+        "Licencias libres y comerciales"
+      ],
+      "url": "https://theingstudio.com/beatpack-vol1"
+    },
+    {
+      "name": "Live Set: Ritual Sonoro",
+      "isActive": true,
+      "description": "Presentación audiovisual en vivo con visuales generativos",
+      "highlights": [
+        "Transmitido en Twitch",
+        "Edición especial para Festival Sonido Sur"
+      ],
+      "url": "https://youtube.com/@theingstudio/live"
+    }
+  ]
+}

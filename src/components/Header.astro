@@ -1,0 +1,150 @@
+---
+import LogoSvg from "../icons/components/Logo1.svg";
+---
+
+
+<header class="navbar">
+  <div class="logo">
+    <img src="../icons/components/Logo1.svg" alt="Logo del productor" class="logo-img" />
+    <span class="logo-text">THEING Beats</span>
+  </div>
+  <nav class="nav-links">
+    <a href="#inicio">Inicio</a>
+    <a href="#portafolio">Portafolio</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="glitch-title">Produciendo lo imposible</h1>
+    <p class="hero-subtitle">Sonidos que trascienden fronteras</p>
+    <button class="cta-button">Escucha mis beats </button>
+    <div class="neon-divider"></div>
+  </div>
+</section>
+
+<style>
+  :root {
+    --neon-pink: #ff0000;
+    --neon-blue: #00ffff;
+    --neon-purple: #8a2be2;
+    --dark-bg: #0a0a0f;
+    --accent: #ff9900;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    max-width: 1300px;
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #0a0a0f, #1a1a2e);
+    border: 1px solid var(--neon-purple);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    z-index: 1000;
+    box-shadow: 0 0 12px var(--neon-purple), 0 0 25px var(--neon-blue);
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .logo-img {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0 0 6px var(--neon-pink));
+  }
+
+  .logo-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: var(--neon-pink);
+    text-shadow: 0 0 8px var(--neon-pink), 0 0 15px var(--neon-blue);
+  }
+
+  .nav-links a {
+    margin-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--neon-blue);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    color: var(--accent);
+    text-shadow: 0 0 6px var(--accent);
+  }
+
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    background: url('/assets/background.svg') center/cover no-repeat;
+    padding-top: 6rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .glitch-title {
+    font-size: 3rem;
+    font-family: 'Audiowide', cursive;
+    color: var(--neon-pink);
+    text-transform: uppercase;
+    text-shadow: 0 0 8px var(--neon-pink), 0 0 20px var(--neon-blue), 0 0 30px var(--neon-purple);
+    animation: glowPulse 2.5s infinite alternate;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--neon-blue);
+    text-shadow: 0 0 6px var(--neon-blue);
+  }
+
+  .cta-button {
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: var(--neon-purple);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--neon-purple), 0 0 20px var(--neon-blue);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--accent), 0 0 30px var(--neon-pink);
+  }
+
+  @keyframes glowPulse {
+    from { text-shadow: 0 0 6px var(--neon-pink), 0 0 15px var(--neon-blue); }
+    to { text-shadow: 0 0 14px var(--neon-pink), 0 0 30px var(--neon-blue), 0 0 40px var(--neon-purple); }
+  }
+
+  .neon-divider {
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--neon-blue), var(--neon-pink), transparent);
+    box-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-pink);
+    border-radius: 3px;
+  }
+</style>
+

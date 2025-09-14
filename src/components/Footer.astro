@@ -1,0 +1,116 @@
+---
+import astroLogo from '../assets/astro.svg';
+import background from '../assets/background.svg';
+---
+
+
+<footer class="footer">
+  <div class="footer-container">
+    
+    <div class="footer-left">
+      <div>
+        <p class="footer-title">THEING Studio</p>
+        <span class="footer-subtitle">
+           theing9@gmail.com  Pasto, Colombia
+        </span>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank">Instagram</a>
+          <a href="https://soundcloud.com" target="_blank">SoundCloud</a>
+          <a href="https://youtube.com" target="_blank">YouTube</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+</footer>
+
+<style>
+  .footer {
+    width: 100%;
+    padding: 2.5rem 1.5rem;
+    background: linear-gradient(180deg, #0a0a0f, #1a1a2e);
+    border-top: 2px solid var(--neon-purple);
+    box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+
+  .footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(0 0 8px var(--neon-pink));
+  }
+
+  .footer-title {
+    font-size: 1.6rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: var(--neon-pink);
+    text-shadow: 0 0 6px var(--neon-blue);
+    margin-bottom: 0.3rem;
+  }
+
+  .footer-subtitle {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: var(--neon-blue);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .social-links a {
+    font-size: 0.9rem;
+    color: var(--neon-pink);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .social-links a:hover {
+    color: var(--accent);
+    text-shadow: 0 0 6px var(--accent);
+  }
+
+  .footer-right {
+    text-align: right;
+  }
+
+  .footer-right h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--neon-purple);
+    text-shadow: 0 0 6px var(--neon-blue);
+    margin-bottom: 0.3rem;
+  }
+
+  .footer-note {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--neon-blue);
+    text-shadow: 0 0 4px var(--neon-pink);
+  }
+</style>
