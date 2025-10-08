@@ -3,7 +3,11 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import OtraSection from "../sections/OtraSection.astro";
 import Content from "../components/Content.astro";
+import Layout from '../layouts/Layout.astro';
+import Humo from '../components/Humo.astro';
 ---
+
+
 
 <Header />
 
@@ -15,10 +19,15 @@ import Content from "../components/Content.astro";
       <p class="hero-subtitle">Produciendo ideas que suenan CyberPhonk & Code</p>
       <a href="#proyectos" class="cta-button">ESCUCHA MIS BEATS</a>
     </div>
+    
   </section>
 
   
   <Content />
+  <Layout>
+  
+</Layout>
+<Humo />
 
   
   <section id="proyectos">
